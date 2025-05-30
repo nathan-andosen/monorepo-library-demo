@@ -1,0 +1,27 @@
+.nyc_output/
+.tscache/
+.vscode/
+coverage/
+node_modules/
+dist
+dist-ssr
+*.log
+*.swo
+*.swp
+.api-deploy/
+.firebase/
+.playwright-browsers/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

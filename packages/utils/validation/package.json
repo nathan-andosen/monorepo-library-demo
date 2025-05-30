@@ -1,0 +1,16 @@
+{
+  "name": "@utils/validation",
+  "version": "0.0.1",
+  "description": "Validation utilities",
+  "author": "ACER",
+  "main": "./src/index.ts",
+  "scripts": {
+
+  },
+  "devDependencies": {
+
+  },
+  "dependencies": {
+
+  }
+}
