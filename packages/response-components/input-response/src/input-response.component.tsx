@@ -20,7 +20,7 @@ export const InputResponse: Component<InputResponseProps> = (props) => {
       <span><slot name="children">{props.children}</slot></span>
       <span>Input Response</span>
       <span>Label: {props.label}</span>
-      <input />
+      <input class="input-response__input" />
     </div>
   );
 };
