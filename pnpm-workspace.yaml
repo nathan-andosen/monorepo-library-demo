@@ -1,4 +1,4 @@
 packages:
-  - "packages/**/*"
+  - "components/**/*"
   - "apps/item-editor"
   - "apps/playground"

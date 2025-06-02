@@ -1,7 +1,7 @@
 import {Component, ComponentProps} from 'solid-js';
 import {customElement} from 'solid-element';
 // import {InputResponse} from '@response-components/input-response';
-import "@response-components/input-response";
+import "@response-elements/input-response";
 
 export type MultiResponseItemProps = {
   children?: ComponentProps<"span">["children"];

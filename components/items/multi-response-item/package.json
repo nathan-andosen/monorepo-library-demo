@@ -1,0 +1,17 @@
+{
+  "name": "@items/multi-response-item",
+  "version": "0.0.1",
+  "description": "Multi response item",
+  "author": "ACER",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "vite build",
+    "generate-types": "tsc ./src/multi-response-item.component.tsx --declaration --emitDeclarationOnly --jsx preserve --outDir ../../../custom-elements/multi-response-item"
+  },
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "@response-elements/input-response": "workspace:*"
+  }
+}

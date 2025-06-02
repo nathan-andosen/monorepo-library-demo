@@ -22,8 +22,14 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+
+    // "declaration": false
   },
-  "include": ["packages"],
+  "include": [
+    "components",
+    "typings/**/*.d.ts"
+  ],
   "exclude": ["./coverage", "./public", "./dist", "**/node_modules/**"]
 }

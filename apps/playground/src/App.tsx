@@ -2,9 +2,7 @@ import { createSignal } from 'solid-js'
 import solidLogo from './assets/solid.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import {
-  InputResponse
-} from '@response-components/input-response';
+import "@response-elements/input-response";
 
 function App() {
   const [count, setCount] = createSignal(0)
@@ -28,7 +26,8 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <InputResponse label='Address:'>Hello world!</InputResponse>
+      <acer-input-response label='ADDRESS::'></acer-input-response>
+      {/* <InputResponse label='Address:'>Hello world!</InputResponse> */}
       <p class="read-the-docs">
         Click on the Vite and Solid logos to learn more
       </p>

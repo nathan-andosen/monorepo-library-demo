@@ -1,0 +1,16 @@
+{
+  "name": "@items/single-response-item",
+  "version": "0.0.1",
+  "description": "Single response item",
+  "author": "ACER",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "@response-elements/input-response": "workspace:*"
+  }
+}

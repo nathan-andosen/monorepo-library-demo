@@ -1,7 +1,7 @@
 {
-  "name": "@items/multi-response-item",
+  "name": "@response-elements/input-response",
   "version": "0.0.1",
-  "description": "Multi response item",
+  "description": "Validation utilities",
   "author": "ACER",
   "main": "./src/index.tsx",
   "scripts": {
@@ -11,6 +11,6 @@
 
   },
   "dependencies": {
-    "@response-components/input-response": "workspace:*"
+
   }
 }

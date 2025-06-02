@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "solid-js": "^1.9.5",
-    "@response-components/input-response": "workspace:*"
+    "@response-elements/input-response": "workspace:*"
   },
   "devDependencies": {
     "typescript": "~5.8.3",
